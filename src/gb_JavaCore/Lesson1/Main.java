@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
 
         Competitor[] competitors = {new Human("Tom"), new Cat("Loky"), new Wolf("Tor")};
-        Obstacle[] obstacles = {new Cross(350), new Wall(2), new Water(2)};
+        Obstacle[] obstacles = {new Cross(390), new Wall(2), new Water(2)};
 
         Team team = new Team("Winners", competitors);
 
